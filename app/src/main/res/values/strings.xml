@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- AppName -->
+    <string name="app_name">Merqueo Films</string>
+    <!-- ApiKey -->
+    <string name="api_key_v3">8c0457b0a34b8e815c0e1ef2ff2aa7d1</string>
+    <string name="api_key_authorization">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4YzA0NTdiMGEzNGI4ZTgxNWMwZTFlZjJmZjJhYTdkMSIsInN1YiI6IjU5NDQxN2RjOTI1MTQxMTY5YzAwMDVmNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.APkgC8dIufJK8iAGIKQN86j4aZ-7z-CMgxwTTI1341M</string>
+    <!-- WebServices -->
+    <string name="genres">https://api.themoviedb.org/3/genre/movie/list?api_key=</string>
+    <string name="movies_by_genres">https://api.themoviedb.org/3/genre/%1$s/movies?api_key=</string>
+    <string name="movie_img">https://image.tmdb.org/t/p/w300/</string>
+    <!-- Requests Messages -->
+    <string name="request_success">Successful transaction with remote server</string>
+    <string name="request_failed">Error - there was an error in transaction</string>
+    <string name="request_error">Error - Please ensure your device has internet access</string>
+    <string name="request_error_films">Error while retrieving films list, Please ensure your device has internet access</string>
+    <string name="request_error_genres">Error while retrieving genres list, Please ensure your device has internet access</string>
+    <string name="request_success_localdb">Successful transaction with local database</string>
+    <string name="request_error_localdb">Error  while retrieving lists from local database</string>
+
+    <!-- Receivers Filters-->
+    <string name="img_receiver">test.julian.merqueo.ImageReceiver</string>
+    <string name="search_film_receiver">test.julian.merqueo.SearchReceiver</string>
+    <string name="genres_groups_receiver">test.julian.merqueo.GenresGroups</string>
+    <string name="films_receiver">test.julian.merqueo.FilmsReceiver</string>
+    <string name="start_fimls_view">test.julian.merqueo.StartFilmsView</string>
+
+    <!-- Request permissions -->
+    <integer name="permissions">44</integer>
+    <integer name="film_results">42</integer>
+    <string name="grant_permission">you need to grant permissions to use this application</string>
+
+    <!-- Messages -->
+    <string name="lang">Language : </string>
+
+    <!-- Shared Preferences -->
+    <string name="process_status">status_process_data</string>
+    <string name="parent_position">parent_pos</string>
+    <string name="child_position">child_pos</string>
+
+</resources>
